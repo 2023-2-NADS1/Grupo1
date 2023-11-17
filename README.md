@@ -58,7 +58,6 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>src</b>: Pasta que contém o código fonte.
 
-```
 ## 🗃 Histórico de lançamentos
 
 * 0.1.1 - 17/11/2023
