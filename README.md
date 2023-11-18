@@ -8,7 +8,7 @@
 
 ## Criver
 
-## Integrantes: <a href="https://github.com/deGuicS">Guilherme Carvalho da Silva</a>, <a href="https://www.linkedin.com/in/victorbarq/">Gustavo</a>, <a href="https://br.linkedin.com/in/giovanne-braga-0a4288280">Giovanne Braga</a>
+## Integrantes: <a href="https://github.com/deGuicS">Guilherme Carvalho da Silva</a>, <a href="https://www.linkedin.com/in/gustavo-henrique-santos-araujo-543853246/?originalSubdomain=br)/">Gustavo Henrique</a>, <a href="https://br.linkedin.com/in/giovanne-braga-0a4288280">Giovanne Braga</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Bruno Alexander Rosetti de Quiroz</a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>
 
@@ -16,14 +16,11 @@
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
 
 Projeto de Plantação em Hidroponia com irrigação automática através de uma bomba d'água submersa e um sensor de profundidade.
-<br><br>
 Com a bomba d'água conseguimos fazer a irrigação automática funcionar com um timer mantendo as plantas sempre úmidas.
-<br><br>
 O sensor de profundidade nos permite alertar o dono da plantação para se atentar ao nível de água do reservatório.
 <br><br>
 
@@ -35,8 +32,6 @@ O sensor de profundidade nos permite alertar o dono da plantação para se atent
   &emsp;|-->antigos<br>
   &emsp;|Documentação.docx<br>
 |-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
   &emsp;|-->HTML<br>
 |-->imagens<br>
 |-->src<br>
