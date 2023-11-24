@@ -53,6 +53,8 @@ void loop(){
     digitalWrite(portLedVerde, LOW);
     digitalWrite(portLedVermelho, HIGH);
     Serial.println(valorSensor);
+    Blynk.logEvent("nivel_baixo", "O nível de água do sistema está baixo, verificar!");
+    delay(4000);
   }
 
   // Aciona o motor, registra um evento no Blynk e aguarda por 30 segundos
