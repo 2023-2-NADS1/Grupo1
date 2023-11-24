@@ -27,7 +27,7 @@ int portMot = 16; // Porta para o motor
 BlynkTimer timer; // Criação do timer do Blynk para eventos
 
 void setup() {
-  Serial1.begin(9600); // Inicialização da comunicação serial
+  Serial.begin(9600); // Inicialização da comunicação serial
   Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass, "blynk.cloud", 80); // Inicialização do Blynk
   pinMode(portLedVermelho, OUTPUT);
   pinMode(portLedVerde, OUTPUT);
@@ -41,26 +41,29 @@ void loop(){
 
   valorSensor = analogRead(portSen); // Leitura do valor do sensor analógico
   Serial.println(valorSensor);
+
   Blynk.virtualWrite(vSensor, valorSensor); // Atualização do valor do sensor no Blynk
 
   // Lógica para controle dos LEDs com base no valor do sensor
   if (valorSensor >= 300){
     digitalWrite(portLedVerde, HIGH);
     digitalWrite(portLedVermelho, LOW);
+    Serial.println(valorSensor);
   } else {
     digitalWrite(portLedVerde, LOW);
     digitalWrite(portLedVermelho, HIGH);
+    Serial.println(valorSensor);
   }
 
   // Aciona o motor, registra um evento no Blynk e aguarda por 30 segundos
-  digitalWrite(portMot, HIGH);
-  Serial.println("B Ligada");
   Blynk.logEvent("bomba_ligada", "A bomba d'água ligou, suas plantas estão sendo regadas!");
+  digitalWrite(portMot, LOW);
+  Serial.println("B Ligada");
   delay(30000);
 
   // Desliga o motor, registra um evento no Blynk e aguarda por mais 30 segundos
-  digitalWrite(portMot, LOW);
+  digitalWrite(portMot, HIGH);
   Serial.println("B Desligada");
-  delay(30000);
+  delay(3000);
 }
 
