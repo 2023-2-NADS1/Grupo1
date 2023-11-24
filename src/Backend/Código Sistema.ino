@@ -64,6 +64,6 @@ void loop(){
   // Desliga o motor, registra um evento no Blynk e aguarda por mais 30 segundos
   digitalWrite(portMot, HIGH);
   Serial.println("B Desligada");
-  delay(3000);
+  delay(30000);
 }
 
