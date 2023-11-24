@@ -6,7 +6,7 @@
 
 # Sistema de Hidroponia
 
-## Criver
+## Grupo Criver
 
 ## Integrantes: <a href="https://github.com/deGuicS">Guilherme Carvalho da Silva</a>, <a href="https://www.linkedin.com/in/gustavo-henrique-santos-araujo-543853246/?originalSubdomain=br)/">Gustavo Henrique</a>, <a href="https://br.linkedin.com/in/giovanne-braga-0a4288280">Giovanne Braga</a>
 
@@ -27,20 +27,17 @@ O sensor de profundidade nos permite alertar o dono da plantação para se atent
 ## 🛠 Estrutura de pastas
 
 -Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->HTML<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
 |readme.md<br>
 
 ## 🗃 Histórico de lançamentos
-
+* 0.2.1 - 23/11/2023
+    * App para Vizualização Montado
+* 0.2.0 - 21/11/2023
+    * Montagem Finalizada
+    * Código Testado no Sistema
 * 0.1.1 - 17/11/2023
     * Código Finalizado
     * Ajustes no Github
