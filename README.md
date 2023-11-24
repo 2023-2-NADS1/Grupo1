@@ -33,18 +33,21 @@ O sensor de profundidade nos permite alertar o dono da plantação para se atent
 |readme.md<br>
 
 ## 🗃 Histórico de lançamentos
-* 0.2.1 - 23/11/2023
+* 2.2 - 24/11/2023
+    * Testes Finais
+    * Ajustes Finais GitHub
+* 2.1 - 23/11/2023
     * App para Vizualização Montado
-* 0.2.0 - 21/11/2023
+* 2.0 - 21/11/2023
     * Montagem Finalizada
     * Código Testado no Sistema
-* 0.1.1 - 17/11/2023
+* 1.1 - 17/11/2023
     * Código Finalizado
     * Ajustes no Github
-* 0.1.0 - 13/11/2023
+* 1.0 - 13/11/2023
     * Projeto Físico quase 100% Finalizado
     * Código Iniciado
-* 0.0.1 - 06/11/2023
+* 0.1 - 06/11/2023
     * Trabalho em andamento
 
 ## 📋 Licença/License
