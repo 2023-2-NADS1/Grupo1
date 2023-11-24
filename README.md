@@ -49,7 +49,7 @@ O sensor de profundidade nos permite alertar o dono da plantação para se atent
 
 ## 📋 Licença/License
 
-
+<p>Sistema de Hidroponia ©️ 2023 by Guilherme Carvalho da Silva, Giovane Braga Costa, Gustavo Henrique Santos Araujo is licensed under CC BY-NC 4.0</p>
 ## 🎓 Referências
 
 Aqui estão as referências usadas no projeto.
